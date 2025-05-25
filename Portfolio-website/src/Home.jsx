@@ -37,7 +37,7 @@ function Home(){
         				</span>
       			</p>
     		</div>
-    		<img class="whatsapp-image-2025-05-25-at-1" alt="" src="WhatsApp Image 2025-05-25 at 15.57.17 1.png"/>
+    		<img class="whatsapp-image-2025-05-25-at-1" alt="" src="src/assets/WhatsApp Image 2025-05-25 at 15.57.17 1.png"/>
     		
     		
 			<div class="i-build-websites">I build websites</div>
