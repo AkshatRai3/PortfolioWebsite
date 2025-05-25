@@ -3,55 +3,7 @@ body{
     line-height: normal;
 
 }
-a{
-  text-decoration: none;
-
-}
-.namaste {
-  	position: absolute;
-  	top: 277px;
-  	left: 164px;
-  	font-size: 96px;
-  	font-family: 'Londrina Outline';
-  	color: #fff;
-  	display: inline-block;
-  	width: 547px;
-  	height: 157px;
-}
-.span {
-  	font-family: 'Lohit Bengali';
-}
-.welcome-to-the-world-of {
-  	margin: 0;
-}
-.akshat-rai1 {
-  	font-size: 64px;
-  	font-family: 'Shadows Into Light Two';
-}
-.akshat-rai {
-  	margin: 0;
-  	font-family: 'Lohit Bengali';
-}
-.welcome-to-the-container {
-  	position: absolute;
-  	top: 434px;
-  	left: 153px;
-  	color: #fff;
-  	display: inline-block;
-  	width: 589px;
-  	height: 398px;
-  	font-size: 32px;
-  	font-family: 'Kulim Park';
-}
-.whatsapp-image-2025-05-25-at-1 {
-  	position: absolute;
-  	bottom: 0em;
-  	right:-12em;
-  	width: 1115px;
-  	height: 1487px;
-  	object-fit: cover;
-}
-.macbook-air-1-child {
+#navbar{
   	position: fixed;
   	top: 0px;
   	left: 0px;
@@ -61,60 +13,74 @@ a{
   	opacity: 0.75;
     text-align: center;
     align-items: center;
+    display: flex;
+    z-index: 10;
 }
-.rai {
-    top:16px;
-  	font-size: 64px;
-  	font-family: 'Instrument Serif';
-  	display: inline-block;
-  	width: 106px;
-  	height: 50px;
-    z-index: 1000;
-    /* color: #000; */
+.text{
+  margin:5px;
+  padding: 5px;
 }
-.home {
+.nav-left{
+  position: absolute;
+  display: flex;
+  left: 1.25%;
+  bottom: 5%;
+  margin-left: 2px;
+}
+.nav-centre{
+  position: absolute;
+  left: 45%;
+}
+.nav-right{
+  position: absolute;
+  right: 1.25%;
+  bottom: 5%;
+}
+.down{
+  text-decoration: underline;
+  color: #000;
+}
+.rai{
+  z-index: 1000;
+  color: #000; 
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Instrument Serif';
+  font-size: 64px;
+}
+.main-text{
+  max-width: max-content;
+}
+.namaste{
+  position: absolute;
+  font-family:'Londrina Outline' ;
+  display: inline-block;
+  font-size: 96px;
+  top: 35%;
+  margin-left: 20%;
+  color: #fff;
+}
+.welcome-to-the-container{
+  position: fixed;
+  top:55%;
+  left:15%;
+  color: #fff;
+}
+.main1{
+  font-family: 'Kulim Park';
+}
+.akshat-rai{
+
+  font-size: 64px;
+  	font-family: 'Shadows Into Light Two';
+}
+.whatsapp-image-2025-05-25-at-1 {
   	position: absolute;
-  	top: 57px;
-  	left: 21px;
-  	text-decoration: underline;
-  	text-align: left;
-  	display: inline-block;
-  	width: 76px;
-  	height: 44px;
-    color: #000;
-}
-.about {
-  	position: absolute;
-  	top: 57px;
-  	left: 113px;
-  	text-decoration: underline;
-  	text-align: left;
-  	display: inline-block;
-  	width: 90px;
-  	height: 44px;
-    color: #000;
-}
-.works {
-  	position: absolute;
-  	top: 57px;
-  	left: 219px;
-  	text-decoration: underline;
-  	text-align: left;
-  	display: inline-block;
-  	width: 90px;
-  	height: 44px;
-    color: #000;
-}
-.contact {
-  	position: absolute;
-  	top: 57px;
-  	right: 1em;
-  	text-decoration: underline;
-  	text-align: left;
-  	display: inline-block;
-  	width: 122px;
-  	height: 44px;
-    color: #000;
+  	bottom: 0em;
+  	right:-12em;
+  	width: 1115px;
+  	height: 1487px;
+  	object-fit: cover;
 }
 .i-build-websites {
   	position: absolute;
@@ -126,7 +92,7 @@ a{
   	width: 186px;
   	height: 31px;
 }
-.macbook-air-1 {
+#homepage {
   	width: 100%;
   	position: relative;
   	background-color: #231a1a;
@@ -139,48 +105,59 @@ a{
   	font-family: Inter;
 }
 
-@media screen and (max-width:1100px) {
+
+@media screen and (max-width:930px) {
   .whatsapp-image-2025-05-25-at-1{
     z-index: -1;
-    opacity: 0.75;
+    opacity: 0.5;
   	width: 1115px;
   	height: 1487px;
   	object-fit: cover;
+  
   }
-  .namaste {
+  .main-text{
+    position: absolute;
+    left: 25%;
+    top:35%
+  }
+  .down{
+    display: none;
+  }
+  .line-parent {
+  	width: 100%;
   	position: absolute;
-  	top: 277px;
-  	left: 33%;
-  	font-size: 96px;
-  	font-family: 'Londrina Outline';
-  	color: #fff;
-  	display: inline-block;
-  	width: 547px;
-  	height: 157px;
+  	right: 20px;
 }
-.span {
-  	font-family: 'Lohit Bengali';
-}
-.welcome-to-the-world-of {
-  	margin: 0;
-}
-.akshat-rai1 {
-  	font-size: 64px;
-  	font-family: 'Shadows Into Light Two';
-}
-.akshat-rai {
-  	margin: 0;
-  	font-family: 'Lohit Bengali';
-}
-.welcome-to-the-container {
+  .group-child {
   	position: absolute;
-  	top: 434px;
-  	left: 153px;
-  	color: #fff;
-  	display: inline-block;
-  	width: 589px;
-  	height: 398px;
-  	font-size: 32px;
-  	font-family: 'Kulim Park';
+  	top: -0.5px;
+  	right:2%;
+  	border-top: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
 }
+.group-item {
+  	position: absolute;
+  	top: 12.5px;
+  	right:2%;
+  	border-top: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 25.5px;
+  	right:2%;
+  	border-top: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
+}
+
+
+
+  
+
 }
