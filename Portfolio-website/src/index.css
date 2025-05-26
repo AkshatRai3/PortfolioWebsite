@@ -61,7 +61,7 @@ body{
   color: #fff;
 }
 .welcome-to-the-container{
-  position: fixed;
+  position: absolute;
   top:55%;
   left:15%;
   color: #fff;
