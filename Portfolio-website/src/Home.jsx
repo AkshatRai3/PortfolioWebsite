@@ -14,10 +14,8 @@ function Home(){
                                 <span>Welcome to the world of</span>
                     </p>
                     <p class="akshat-rai text">
-                            <span class="akshat-rai1">AKSHAT RAI</span>
-                            <span>
-                                <span>,</span>
-                            </span>
+                            <span class="akshat-rai1">AKSHAT RAI,</span>
+                           
                     </p>
                    <br /> 
                     <p class="welcome-to-the-world-of main1 text">
