@@ -108,21 +108,64 @@ body{
   	font-family: Inter;
 }
 
-
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1800px) {
 	.namaste{
 		position: absolute;
 		font-family:'Londrina Outline' ;
 		display: inline-block;
-		font-size: 30vh;
-		top: 15%;
-		margin-left: 10%;
+		font-size: 20vh;
+		top: 25%;
+		margin-left: 15%;
 		color: #fff;
 	}
 	.main1{
 		font-size: 5vh;
 		font-family: 'Kulim Park';
 	}
+	@media screen and (max-height:950px) and (min-height:590px) {
+		.namaste{
+			position: absolute;
+			font-family:'Londrina Outline' ;
+			display: inline-block;
+			font-size: 24vh;
+			top: 38%;
+			margin-left: 4%;
+			color: #fff;
+		}
+		.main1{
+			font-size: 4vh;
+			font-family: 'Kulim Park';
+		}
+		.welcome-to-the-container{
+			position: absolute;
+			top:40vh;
+			left:40vw;
+			color: #fff;
+		}
+	}
+	@media screen and (max-height:590px) {
+		.whatsapp-image-2025-05-25-at-1{
+			height: 20vh;
+		}
+	}
+	
+}
+@media screen and (min-width:1300px) and (max-width:1800px) {
+	.namaste{
+		position: absolute;
+		font-family:'Londrina Outline' ;
+		display: inline-block;
+		font-size: 20vh;
+		top: 25%;
+		margin-left: 15%;
+		color: #fff;
+	}
+	.main1{
+		font-size: 3vh;
+		font-family: 'Kulim Park';
+	}
+	
+}	
 	@media screen and (max-height:590px) and (min-height:400px){
 		.namaste{
 		position: absolute;
@@ -192,8 +235,6 @@ body{
 	}
 	}
 
-}
-
 @media screen and (max-width: 1300px)  and (min-width: 900px) {
 	.namaste{
 		position: absolute;
@@ -257,8 +298,8 @@ body{
 		position: absolute;
 		font-family:'Londrina Outline' ;
 		display: inline-block;
-		font-size: 23vh;
-		top: 45vh;
+		font-size: 20vh;
+		top: 40vh;
 		left: 1vw;
 		color: #fff;
 		margin: 2px;
@@ -331,7 +372,7 @@ body{
 
 }
 
-@media screen and (max-width: 900px) and (min-width:485px){
+@media screen and (max-width: 900px) and (min-width:680px){
 	.whatsapp-image-2025-05-25-at-1{
 		opacity: 0.5;
 		position: absolute;
@@ -352,9 +393,51 @@ body{
 	}
 	.welcome-to-the-container{
 		position: absolute;
-		left: 30vw
+		left: 15%;
 	}
-	@media screen and (max-height:550px) {
-		
+	@media screen and (max-height:590px) and (min-height: 480px) {
+		.namaste{
+			position: absolute;
+			font-family:'Londrina Outline' ;
+			display: inline-block;
+			font-size: 20vh;
+			top: 25vh;
+			width: 100%;
+			left: 0vw;
+			color: #fff;
+		}
+		.welcome-to-the-container{
+			top:50vh;
+			left:29vw;
+			font-size: .5vh;
+		}
+		.main1{
+			font-size: 4vh;
+			font-family: 'Kulim Park';
+		}
+		.akshat-rai{
+			font-size: 6vh;
+		}
+	}
+	@media screen and (max-height:480px) {
+		.whatsapp-image-2025-05-25-at-1{
+			opacity: 1;
+		}
+		.namaste{
+			left:-30vw;
+		}
+		.welcome-to-the-container{
+			left: 55%;
+			font-size: 0.1vh;
+		}
+		.main1{
+			font-size: 4vh;
+			font-family: 'Kulim Park';
+		}
+		.akshat-rai{
+			font-size: 6vh;
+		}
 	}
 }
+
+
