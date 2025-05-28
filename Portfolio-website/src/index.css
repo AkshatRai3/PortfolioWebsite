@@ -557,5 +557,189 @@ right: 0.5%;
 	}
 }
 
+@media screen and (max-width: 680px) and (min-width: 400px) {
+	.namaste{
+		font-size: 10vh;
+		right:2%;
+	}
+	.whatsapp-image-2025-05-25-at-1{
+		width:220vw;
+		height: 150vh;
+		left: -70%;
+	}
+	#navbar{
+		height: 15vh;
+	}
+	.rai{
+		font-size: 8vh;
+		margin-right:75%;
+	}
+	@media screen and (max-height:900px) and (min-height:650px){
+		.main1{
+			font-size: 4vh;
+			font-family: 'Kulim Park';
+		}
+		.welcome-to-the-container{
+			position: absolute;
+			top:50vh;
+			left:10vw;
+			color: #fff;
+		}
+		.namaste{
+			font-size: 10vh;
+		}
+		.whatsapp-image-2025-05-25-at-1{
+			width:120vw;
+			height: 150vh;
+			position: absolute;
+			left:-10%;
+		}
+	}
+	@media screen and (max-height:650px){
+		.main1{
+			font-size: 4vh;
+			font-family: 'Kulim Park';
+		}
+		.welcome-to-the-container{
+			position: absolute;
+			top:50vh;
+			left:18vw;
+			color: #fff;
+			font-size: 0em;
+		}
+		.namaste{
+			font-size: 15vh;
+			left:4vw;
+		}
+		.rai{
+			font-size: 10vh;
+			margin-right:75%;
+		}
+		.i-build-websites{
+			font-size: 3vh;
+		}
+		.akshat-rai{
+			font-size: 6vh;
+		}
+		.whatsapp-image-2025-05-25-at-1{
+			width:120vw;
+			height: 150vh;
+			position: absolute;
+			left:-10%;
+		}
+	}
+	
+}
 
 
+@media screen and (max-width: 400px) {
+	.namaste{
+		font-size: 10vh;
+		right:2%;
+	}
+		.group-child {
+  	position: absolute;
+  	top: 5px;
+  	right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 20px;
+  	height: 1px;
+}
+.group-item {
+  	position: absolute;
+  	top: 12.5px;
+	right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 20px;
+  	height: 1px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 20px;
+right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 20px;
+  	height: 1px;
+}
+.line-parent {
+  	width: 100%;
+  	position: absolute;
+	right: 2vw;
+  	height: 26px;
+}
+	.whatsapp-image-2025-05-25-at-1{
+		width:220vw;
+		height: 150vh;
+		left: -70%;
+	}
+	#navbar{
+		height: 12vh;
+	}
+	.rai{
+		font-size: 6vh;
+		margin-right:2em;
+		padding-right: 100%;
+	}
+	.welcome-to-the-container{
+		font-size: 0%;
+		top: 45vh;
+		left: 10%
+	}
+	.main1{
+		font-size: 2.2vh;
+	}
+	.i-build-websites{
+		font-size: 2vh;
+	}
+	.akshat-rai{
+		font-size: 6vh;
+	}
+	@media screen and (max-height:660px) and ( min-height: 400px){
+		.main1{
+			font-size: 3.5vh;
+			font-family: 'Kulim Park';
+		}
+		.welcome-to-the-container{
+			position: absolute;
+			top:50vh;
+			left:10vw;
+			color: #fff;
+		}
+		.namaste{
+			font-size: 14vh;
+		}
+		.whatsapp-image-2025-05-25-at-1{
+			width:120vw;
+			height: 150vh;
+			position: absolute;
+			left:-10%;
+		}
+	}
+	@media screen and (max-height:400px) {
+		.main1{
+			font-size: 3vh;
+			font-family: 'Kulim Park';
+		}
+		.welcome-to-the-container{
+			position: absolute;
+			top:50vh;
+			left:25vw;
+			color: #fff;
+		}
+		.namaste{
+			font-size: 20vh;
+			left: 2%;
+		}
+		.whatsapp-image-2025-05-25-at-1{
+			width:120vw;
+			height: 150vh;
+			position: absolute;
+			left:-10%;
+		}
+	}
+		
+	}
+	
