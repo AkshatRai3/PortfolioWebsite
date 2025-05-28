@@ -263,6 +263,23 @@ body{
 		height: 170vh;
 		object-fit:cover;
 	}
+	@media screen and (min-height:878px) {
+		.whatsapp-image-2025-05-25-at-1{
+			opacity: 0.5;
+			position: absolute;
+			left:-6%;
+			width: 100vw;
+		}
+		.namaste{
+			left: 6vw
+		}
+		.welcome-to-the-container{
+			left: 10%;
+		}
+		.main1{
+			font-size: 4vh;
+		}
+	}
 	@media screen and (max-height:700px) and (min-height: 600px) {
 		.namaste{
 		position: absolute;
@@ -346,6 +363,7 @@ body{
 			top:35vh;
 			left:40vw;
 			color: #fff;
+			font-size: xx-small;
 		}
 		.whatsapp-image-2025-05-25-at-1 {
 			position: absolute;
@@ -372,7 +390,50 @@ body{
 
 }
 
+@media screen and (max-width:1000px) {
+	
+	.group-child {
+  	position: absolute;
+  	top: -0.5px;
+  	right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
+}
+.group-item {
+  	position: absolute;
+  	top: 12.5px;
+	right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 25.5px;
+right: 0.5%;
+  	border-top: 2px solid #000;
+  	box-sizing: border-box;
+  	width: 51px;
+  	height: 1px;
+}
+.line-parent {
+  	width: 100%;
+  	position: absolute;
+	right: 2vw;
+  	height: 26px;
+}
+
+
+	.down{
+			display: none;
+		}
+}
+
 @media screen and (max-width: 900px) and (min-width:680px){
+	
 	.whatsapp-image-2025-05-25-at-1{
 		opacity: 0.5;
 		position: absolute;
@@ -388,14 +449,34 @@ body{
 		font-size: 20vh;
 		top: 30vh;
 		width: 100%;
-		left: -100px;
+		left: -15%;
 		color: #fff;
 	}
 	.welcome-to-the-container{
 		position: absolute;
-		left: 15%;
+		left: 25%;
+	}
+	@media screen and (min-height:850px) {
+		.namaste{
+		position: absolute;
+		font-family:'Londrina Outline' ;
+		display: inline-block;
+		font-size: 15vh;
+		top: 30vh;
+		width: 100%;
+		left: -15%;
+		color: #fff;
+	}
+	.welcome-to-the-container{
+		left:12%
+	}
+	.main1{
+		font-size: 4vh;
+		font-family: 'Kulim Park';
+	}
 	}
 	@media screen and (max-height:590px) and (min-height: 480px) {
+		
 		.namaste{
 			position: absolute;
 			font-family:'Londrina Outline' ;
@@ -408,7 +489,7 @@ body{
 		}
 		.welcome-to-the-container{
 			top:50vh;
-			left:29vw;
+			left:23vw;
 			font-size: .5vh;
 		}
 		.main1{
@@ -422,22 +503,59 @@ body{
 	@media screen and (max-height:480px) {
 		.whatsapp-image-2025-05-25-at-1{
 			opacity: 1;
+			left:-2%;
+			width: 100vw;
+			height: 200vh;
+			bottom: 0em;
 		}
 		.namaste{
 			left:-30vw;
 		}
 		.welcome-to-the-container{
-			left: 55%;
+			left: 65%;
 			font-size: 0.1vh;
 		}
 		.main1{
-			font-size: 4vh;
+			font-size: 3.5vh;
 			font-family: 'Kulim Park';
 		}
 		.akshat-rai{
 			font-size: 6vh;
 		}
+		#navbar{
+			height: 16vh;
+		}
+		.rai{
+			font-size: 10vh;
+		}
 	}
 }
+
+@media screen and (max-width: 680px) {
+	.whatsapp-image-2025-05-25-at-1{
+		opacity: 0.5;
+		position: absolute;
+		left:-6%;
+		width: 100vw;
+		margin: 0%;
+		object-fit: cover;
+	}
+	.namaste{
+		font-size: 20vh;
+		top:25%;
+		left:-8%;
+	}
+	.welcome-to-the-container{
+		position: absolute;
+		left: 8%;
+	}
+	.down{
+		display: none;
+	}
+	.rai{
+		font-size: 10vh;
+	}
+}
+
 
 
