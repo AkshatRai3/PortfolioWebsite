@@ -774,7 +774,6 @@ right: 0.5%;
 
 .carousel-img-wrapper:hover {
   transform: scale(1.05);
-  filter: invert()
 }
 
 .carousel-img {
@@ -783,7 +782,6 @@ right: 0.5%;
   display: block;
   transition: transform 0.5s ease;
   transition:filter 2s ease;
-  filter: invert();
   object-fit: cover;
 }
 
