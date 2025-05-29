@@ -16,7 +16,7 @@ function Navbar() {
                     
                 </div>
                 <div className='nav-centre'>
-                    <a href="https://youtube.com"><div className="rai text">RAI</div></a>
+                    <Link to="/"><div className="rai text">RAI</div></Link>    
                 </div>
                 <div className='nav-right'>
                     <a href="#"><div className="contact text down">CONTACT</div></a>
