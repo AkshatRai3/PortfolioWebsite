@@ -1,33 +1,34 @@
 import './index.css'
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
-function Navbar(){
-
-    return(
+function Navbar() {
+    return (
         <>
             <div id='navbar'>
                 <div className='nav-left'>
-                    <a href="#"><div class="home text down">HOME</div></a>
-                    <a href="#"><div class="about text down">ABOUT</div></a>
-                    <a href="#"><div class="works text down">WORKS</div></a>
+                    
+                    <Link to="/"> <div className="home text down">HOME</div></Link>
+                    <Link to="/about"><div className="about text down">ABOUT</div></Link>
+                    <Link><div className="works text down">WORKS</div></Link>
+                   
+                    
+                    
                 </div>
                 <div className='nav-centre'>
-                    <a href="youtube.com"><div class="rai text">RAI</div></a>
+                    <a href="https://youtube.com"><div className="rai text">RAI</div></a>
                 </div>
-				<div className='nav-right'>
-                    <a href="#"><div class="contact text down">CONTACT</div></a>
+                <div className='nav-right'>
+                    <a href="#"><div className="contact text down">CONTACT</div></a>
                 </div>
-                <div class="line-parent">
-                    <div class="group-child">
-                    </div>
-                    <div class="group-item">
-                    </div>
-                    <div class="group-inner">
-                     </div>
+                <div className="line-parent">
+                    <div className="group-child line"></div>
+                    <div className="group-item line"></div>
+                    <div className="group-inner line"></div>
                 </div>
-
-    		</div>
+            </div>
         </>
     )
 }
 
-export default Navbar
+export default Navbar;

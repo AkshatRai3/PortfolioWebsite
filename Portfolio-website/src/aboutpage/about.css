@@ -1,0 +1,15 @@
+.About{
+    background-color: #222;
+}
+.heading{
+    width: 26vw;
+position:relative;
+top: 20vh;
+left:40vw;
+font-size: 58px;
+font-family: 'Jolly Lodger';
+color: #fff;
+text-align: left;
+display: inline-block;
+height: 69px;
+}

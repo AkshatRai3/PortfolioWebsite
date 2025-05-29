@@ -9,9 +9,10 @@ body{
   	top: 0px;
   	left: 0px;
   	background-color: #d9d9d9;
+	backdrop-filter: blur(20vh);
   	width: 100%;
   	height: 15vh;
-  	opacity: 0.75;
+  	opacity: 0.9;
     text-align: center;
     align-items: center;
     display: flex;
@@ -425,11 +426,15 @@ right: 0.5%;
 	right: 2vw;
   	height: 26px;
 }
+		#navbar .show{
+	  display: block;
+}
 
 
 	.down{
 			display: none;
 		}
+
 }
 
 @media screen and (max-width: 900px) and (min-width:680px){
@@ -743,3 +748,59 @@ right: 0.5%;
 		
 	}
 	
+.carousel-wrapper {
+	position: relative;
+	top: 20vh;
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.carousel-slide {
+  position: relative;
+  padding: 10px;
+  transition: transform 0.5s ease;
+}
+
+.carousel-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-img-wrapper:hover {
+  transform: scale(1.05);
+  filter: invert()
+}
+
+.carousel-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+  transition:filter 2s ease;
+  filter: invert();
+  object-fit: cover;
+}
+
+/* Zoom animation on entry */
+.slick-center .carousel-img-wrapper {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Gradient overlay */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+  border-radius: 0 0 20px 20px;
+}
+
